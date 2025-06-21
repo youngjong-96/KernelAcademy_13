@@ -35,7 +35,7 @@ public class Ex4_34_imp {
             System.out.println("(2)햄버거");
             System.out.println("(3)김밥");
             System.out.println("(4)닭강정");
-            System.out.print("메뉴를 선택하세요(0을 입력 시 종료): ");
+            System.out.print("메뉴를 선택하세요(100을 입력 시 종료): ");
 
             String s1= scanner.nextLine();
             opt =Integer.parseInt(s1);
