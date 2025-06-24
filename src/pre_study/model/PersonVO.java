@@ -1,4 +1,4 @@
-package src.pre_study.model.model;
+package src.pre_study.model;
 
 public class PersonVO {
     //기본정보

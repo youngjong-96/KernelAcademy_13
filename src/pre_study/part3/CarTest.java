@@ -1,11 +1,10 @@
 package fc.java.part3;
 
-import src.pre_study.model.model.CarDAO;
-import src.pre_study.model.model.CarDTO;
+import src.pre_study.model.CarDTO;
 
 import java.util.Scanner;
 
-public class CarInsertTest {
+public class CarTest {
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
         System.out.print("자동차 일련번호: ");
@@ -32,8 +31,10 @@ public class CarInsertTest {
         car.carYear=carYear;
         car.carType=carType;
 
-        CarDAO dao=new CarDAO();
-        dao.carInsert(car);
-        dao.carSelect();
+        CarPrint(car);
+    }
+
+    public static void CarPrint(CarDTO car){
+        System.out.println(car.carSn+"\t"+car.carName+"\t"+car.carPrice+"\t"+car.carOwner+"\t"+car.carYear+"\t"+car.carType);
     }
 }

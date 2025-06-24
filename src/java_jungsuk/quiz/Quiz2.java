@@ -25,19 +25,14 @@ public class Quiz2 {
             } else {
                 return c;
             }
-        }
-
-        if (a < b) {
-            if (a > c) {
-                {
-                    return a;
-                }
-            } else if (b < c) {
+        } else{
+            if (a>c){
+                return a;
+            } else if (b<c) {
                 return b;
-            } else {
+            }else{
                 return c;
             }
         }
-        return a;
     }
 }

@@ -1,7 +1,7 @@
 package fc.java.part3;
 
-import src.pre_study.model.model.BookDAO;
-import src.pre_study.model.model.BookDTO;
+import src.pre_study.model.BookDAO;
+import src.pre_study.model.BookDTO;
 import java.util.Scanner;
 
 public class BookStudy {

@@ -1,4 +1,4 @@
-package src.pre_study.model.model;
+package src.pre_study.model;
 
 public class AllStatic {
     private AllStatic(){}   //private 생성자 추가

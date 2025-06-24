@@ -1,6 +1,6 @@
 package fc.java.part3;
 
-import src.pre_study.model.model.PersonVO;
+import src.pre_study.model.PersonVO;
 
 public class ConstructorInit {
     public static void main(String[] args) {

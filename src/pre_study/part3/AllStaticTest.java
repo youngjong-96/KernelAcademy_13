@@ -1,6 +1,6 @@
 package fc.java.part3;
 
-import src.pre_study.model.model.AllStatic;
+import src.pre_study.model.AllStatic;
 
 public class AllStaticTest {
     public static void main(String[] args) {

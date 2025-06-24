@@ -1,7 +1,7 @@
 package fc.java.part3;
 
-import src.pre_study.model.model.MyUtil;
-import src.pre_study.model.model.MyUtil1;
+import src.pre_study.model.MyUtil;
+import src.pre_study.model.MyUtil1;
 
 public class StaticAccess {
     public static void main(String[] args) {
