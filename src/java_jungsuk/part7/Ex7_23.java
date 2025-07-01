@@ -88,7 +88,5 @@ public class Ex7_23 {
         b.buy(audio);
         b.summary();
         System.out.println();
-        b.refund(audio);
-        b.summary();
     }
 }
