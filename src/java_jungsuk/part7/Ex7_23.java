@@ -73,7 +73,7 @@ class Buyer{
             itemList += (i==0)? ""+p:","+p;
         }
         System.out.printf("구입하신 물품의 총 금액은 %d만원 입니다.%n",sum);
-        System.out.printf("구입하신 제품은 '%s' 입니다.%n",itemList);
+        System.out.printf("구입하신 제품은 [%s] 입니다.%n",itemList);
     }
 }
 public class Ex7_23 {
